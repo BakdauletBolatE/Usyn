@@ -101,6 +101,7 @@ ul {
 }
 
 .horizontal-box {
+  background-color: white;
   display: flex;
   box-shadow: 1px 1px 5px 0 rgba(1, 1, 1, 0.05);
   overflow: hidden;
@@ -174,6 +175,7 @@ ul {
 }
 
 .vertical-box {
+  background-color: white;
   overflow: hidden;
   border-radius: 1rem;
   padding: 1rem;
@@ -652,6 +654,46 @@ textarea {
 .header__navbar-item:hover {
   transition: 0.3s ease;
   border-bottom: 3px solid #718096;
+}
+
+.footer {
+  width: 100%;
+  background-color: white;
+  padding: 6.4rem 0rem;
+}
+
+.footer__row {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__img-b {
+  height: 5rem;
+  width: 100%;
+}
+
+.footer__img {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.footer__copyright {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0.8rem;
+  text-align: center;
+}
+
+.footer__title {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 1.6rem;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .content-page {
